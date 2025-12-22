@@ -2,71 +2,95 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
 body {
-  background-color: #f4f6f8;
-  color: #333;
-  line-height: 1.6;
+  color: #2c2c2c;
+  background-color: #ffffff;
+  line-height: 1.7;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
 }
 
 /* Header */
-header {
-  background: #0d6efd;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
+.header {
+  background: #0b3c5d;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+}
+
+.role {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
 
 /* Sections */
-.card {
-  background: white;
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.section {
+  padding: 50px 0;
 }
 
-.card h2 {
-  margin-bottom: 10px;
-  color: #0d6efd;
+.bg-light {
+  background: #f5f7fa;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #0b3c5d;
+}
+
+/* Experience & Projects */
+.item {
+  margin-bottom: 25px;
+}
+
+.item h3 {
+  margin-bottom: 5px;
+}
+
+.item-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.item ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.item ul li {
+  margin-bottom: 6px;
 }
 
 /* Skills */
 .skills {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
-.skills li {
-  background: #e9ecef;
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 5px;
-}
-
-/* Projects */
-.project a {
-  display: inline-block;
-  margin-top: 8px;
-  text-decoration: none;
-  color: white;
-  background: #0d6efd;
-  padding: 8px 12px;
-  border-radius: 5px;
-}
-
-.project a:hover {
-  background: #084298;
+.skills span {
+  background: #e1e7ec;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
 
 /* Footer */
-footer {
+.footer {
+  background: #0b3c5d;
+  color: #ffffff;
   text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-  color: #666;
+  padding: 20px 0;
+  font-size: 0.9rem;
 }
