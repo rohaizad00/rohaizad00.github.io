@@ -1,114 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | IT Officer Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container nav-container">
-      <a href="#home" class="logo">Your Name</a>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-  <!-- Home Section -->
-  <section id="home" class="section hero">
-    <div class="container hero-container">
-      <img src="profile.jpg" alt="Your Name" class="profile-pic">
-      <h1>Your Name</h1>
-      <p>Penolong Pegawai Teknologi Maklumat (FA5) <br> UKMSHAPE, Universiti Kebangsaan Malaysia</p>
-      <a href="CV.pdf" class="btn" download>Download CV</a>
+<!-- Home -->
+<section id="home">
+    <div class="home">
+        <div class="home-text">
+            <h1>Hi, I am <span>My Name</span></h1>
+            <h2>Website Developer (Beginner)</h2>
+            <p>I am a passionate beginner web developer learning to create clean, responsive and modern websites.</p>
+            <div class="buttons">
+                <button class="btn-primary">View CV</button>
+                <button class="btn-secondary">Contact Me</button>
+            </div>
+        </div>
+        <img src="https://via.placeholder.com/300" alt="My Image">
     </div>
-  </section>
+</section>
 
-  <!-- About Section -->
-  <section id="about" class="section fade-in">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I am currently working as a Penolong Pegawai Teknologi Maklumat (FA5) at UKMSHAPE,
-        Universiti Kebangsaan Malaysia. My responsibilities include supporting internal IT
-        systems, assisting in web projects, maintaining documentation, and improving digital workflows.
-      </p>
-    </div>
-  </section>
+<!-- About -->
+<section id="about" class="about">
+    <h1>About Me</h1>
+    <p>Currently working as a <b>Student / Beginner Web Developer</b>.</p>
 
-  <!-- Skills Section -->
-  <section id="skills" class="section bg-light fade-in">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>Git & GitHub</span>
-        <span>IT Support</span>
-        <span>System Administration</span>
-        <span>Technical Documentation</span>
-      </div>
+    <div class="education">
+        <div class="edu-box">
+            <i class="fa-solid fa-school"></i>
+            <h3>High School</h3>
+            <p>2018 - 2020</p>
+        </div>
+        <div class="edu-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Matriculation</h3>
+            <p>2020 - 2022</p>
+        </div>
+        <div class="edu-box">
+            <i class="fa-solid fa-university"></i>
+            <h3>University</h3>
+            <p>2022 - Present</p>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- Work Section -->
-  <section id="work" class="section fade-in">
-    <div class="container">
-      <h2>Professional Experience</h2>
-      <div class="item">
-        <h3>Penolong Pegawai Teknologi Maklumat (FA5)</h3>
-        <span class="item-meta">UKMSHAPE, Universiti Kebangsaan Malaysia</span>
-        <ul>
-          <li>Provide technical support for internal IT systems</li>
-          <li>Assist in maintaining and improving web-based systems</li>
-          <li>Create documentation and reports for IT operations</li>
-          <li>Collaborate with teams to improve workflows and digital processes</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<!-- Skills -->
+<section id="skills" class="skills">
+    <h1>Skills</h1>
 
-  <!-- Projects Section -->
-  <section id="projects" class="section bg-light fade-in">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-card">
-        <h3>Internal Web Support</h3>
-        <p>Maintained internal websites and systems ensuring stability, usability, and accessibility.</p>
-      </div>
-      <div class="project-card">
-        <h3>Personal Portfolio Website</h3>
-        <p>Designed and developed this professional portfolio using HTML and CSS, hosted on GitHub Pages.</p>
-      </div>
+    <h3>Frameworks</h3>
+    <div class="skill-row">
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-react"></i>
     </div>
-  </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section fade-in">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Email: yourname@email.com</p>
-      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-      <p>Location: Malaysia</p>
+    <h3>Tools & Software</h3>
+    <div class="skill-row">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-solid fa-code"></i>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 Your Name. All rights reserved.</p>
+    <h3>Languages</h3>
+    <div class="skill-row">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
     </div>
-  </footer>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="projects">
+    <h1>Projects</h1>
+    <div class="project-grid">
+        <div class="project" onclick="window.open('https://example.com')">Project 1</div>
+        <div class="project" onclick="window.open('https://example.com')">Project 2</div>
+        <div class="project" onclick="window.open('https://example.com')">Project 3</div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <div class="contact-info">
+        <h1>Contact Me</h1>
+        <p>Email: myemail@example.com</p>
+        <p>Phone: +123456789</p>
+    </div>
+
+    <div class="contact-form">
+        <form action="mailto:myemail@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
+</section>
 
 </body>
 </html>
